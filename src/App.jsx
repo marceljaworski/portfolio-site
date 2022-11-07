@@ -20,6 +20,7 @@ function App() {
           <Route path="/kontakt" element={<Kontakt />} />
           <Route path="/lebenslauf" element={<Lebenslauf />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="*" element={<h1>Error 404</h1>} />
         </Routes>
       </BrowserRouter>
     </div>
