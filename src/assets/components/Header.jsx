@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 function Header () {
     return(
         <header>
-            <Link to ="/">Main</Link>
-            <Link to ="/projekte">Projekte</Link>
+            <Link to ="/">Main</Link>&nbsp;|&nbsp;
+            <Link to ="/projekte">Projekte</Link>&nbsp;|&nbsp;
+            <Link to ="/skills">Skills</Link>&nbsp;|&nbsp;
+            <Link to ="/lebenslauf">Lebenslauf</Link>&nbsp;|&nbsp;
             <Link to ="/kontakt">Kontakt</Link>
-            <Link to ="/lebenslauf">Lebenslauf</Link>
-            <Link to ="/skills">Skills</Link>
         </header>
         
     );
