@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 
 import './App.scss';
-import Main from './views/Main';
-import Proyects from './views/Proyects';
+import Main from './assets/views/Main';
+import Proyects from './assets/views/Proyects';
 
 function App() {
   return (
