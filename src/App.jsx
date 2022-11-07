@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import './App.scss';
-import Main from './assets/views/Main';
-import Projekte from './assets/views/Projekte';
-import Lebenslauf from "./assets/views/Lebenslauf";
-import Kontakt from "./assets/views/Kontakt";
-import Skills from "./assets/views/Skills";
-import Header from "./assets/components/Header"
+import Main from './views/Main';
+import Projekte from './views/Projekte';
+import Lebenslauf from "./views/Lebenslauf";
+import Kontakt from "./views/Kontakt";
+import Skills from "./views/Skills";
+import Header from "./components/Header"
 
 function App() {
   return (
